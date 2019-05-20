@@ -38,10 +38,6 @@ public class SaveLoad : MonoBehaviour
 
     private void Start()
     {
-        gameData.saveName = "Save 1";
-
-        SaveGameData();
-
         LoadGameData();
     }
 
@@ -66,7 +62,7 @@ public class SaveLoad : MonoBehaviour
 
         if (!File.Exists(filePath))
         {
-            File.Create(filePath, json);
+            File.Create(filePath).Dispose();
         }
         
         File.WriteAllText(filePath, json);

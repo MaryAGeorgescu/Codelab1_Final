@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="443ba86a-8b0d-467d-84ca-8d84d25b43b8" name="Default Changelist" comment="">
+    <list default="true" id="443ba86a-8b0d-467d-84ca-8d84d25b43b8" name="Default Changelist" comment="Adding a save/load feature for in game data.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1_final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1_final/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,23 +22,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="112" />
+          <entry key="cs" value="911" />
+          <entry key="txt" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="112" />
+          <entry key="C#" value="911" />
+          <entry key="PLAIN_TEXT" value="128" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundMusicManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <marker date="1558308839000" expanded="false" signature="6:78" ph="..." />
                 <marker date="1558308839000" expanded="true" signature="131:413" ph="{...}" />
@@ -52,18 +62,44 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveLoad.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+              <folding>
+                <marker date="1558324104000" expanded="true" signature="6:109" ph="..." />
+                <marker date="1558324104000" expanded="true" signature="148:1516" ph="{...}" />
+                <marker date="1558324104000" expanded="true" signature="303:386" ph="{...}" />
+                <marker date="1558324104000" expanded="true" signature="443:741" ph="{...}" />
+                <marker date="1558324104000" expanded="true" signature="519:579" ph="{...}" />
+                <marker date="1558324104000" expanded="true" signature="610:669" ph="{...}" />
+                <marker date="1558324104000" expanded="true" signature="767:867" ph="{...}" />
+                <marker date="1558324104000" expanded="true" signature="892:1177" ph="{...}" />
+                <marker date="1558324104000" expanded="true" signature="955:1083" ph="{...}" />
+                <marker date="1558324104000" expanded="true" signature="1096:1171" ph="{...}" />
+                <marker date="1558324104000" expanded="true" signature="1202:1416" ph="{...}" />
+                <marker date="1558324104000" expanded="true" signature="1297:1358" ph="{...}" />
+                <marker date="1558324104000" expanded="true" signature="1470:1514" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundMusicManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundMusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveLoad.cs" />
       </list>
     </option>
   </component>
@@ -138,12 +174,27 @@
       <option name="presentableId" value="Default" />
       <updated>1555823229542</updated>
       <workItem from="1555823234458" duration="597000" />
-      <workItem from="1558308556677" duration="281000" />
+      <workItem from="1558308556677" duration="3016000" />
     </task>
+    <task id="LOCAL-00001" summary="Trying to add some background music that persists through the scenes.">
+      <created>1558308932087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558308932087</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding a save/load feature for in game data.">
+      <created>1558324148730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558324148730</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="878000" />
+    <option name="totallyTimeSpent" value="3613000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -191,6 +242,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Trying to add some background music that persists through the scenes." />
+    <MESSAGE value="Adding a save/load feature for in game data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a save/load feature for in game data." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -204,14 +260,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundMusicManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="270">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <marker date="1558308839000" expanded="false" signature="6:78" ph="..." />
             <marker date="1558308839000" expanded="true" signature="131:413" ph="{...}" />
             <marker date="1558308839000" expanded="true" signature="158:411" ph="{...}" />
             <marker date="1558308839000" expanded="true" signature="265:323" ph="{...}" />
             <marker date="1558308839000" expanded="true" signature="337:405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveLoad.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+          <folding>
+            <marker date="1558324104000" expanded="true" signature="6:109" ph="..." />
+            <marker date="1558324104000" expanded="true" signature="148:1516" ph="{...}" />
+            <marker date="1558324104000" expanded="true" signature="303:386" ph="{...}" />
+            <marker date="1558324104000" expanded="true" signature="443:741" ph="{...}" />
+            <marker date="1558324104000" expanded="true" signature="519:579" ph="{...}" />
+            <marker date="1558324104000" expanded="true" signature="610:669" ph="{...}" />
+            <marker date="1558324104000" expanded="true" signature="767:867" ph="{...}" />
+            <marker date="1558324104000" expanded="true" signature="892:1177" ph="{...}" />
+            <marker date="1558324104000" expanded="true" signature="955:1083" ph="{...}" />
+            <marker date="1558324104000" expanded="true" signature="1096:1171" ph="{...}" />
+            <marker date="1558324104000" expanded="true" signature="1202:1416" ph="{...}" />
+            <marker date="1558324104000" expanded="true" signature="1297:1358" ph="{...}" />
+            <marker date="1558324104000" expanded="true" signature="1470:1514" ph="{...}" />
           </folding>
         </state>
       </provider>

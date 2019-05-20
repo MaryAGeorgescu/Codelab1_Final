@@ -17,6 +17,12 @@ public class Memorycard : MonoBehaviour
         {
             cardBack.SetActive(false);
         }
+        
+        if (cardBack.activeSelf && controller.canReveal)
+        {
+            cardBack.SetActive(false);
+            controller.CardRevealed(this);
+        }
     }
 
     [SerializeField] private SceneManager controller;
@@ -33,7 +39,11 @@ public class Memorycard : MonoBehaviour
         _id = id;
         GetComponent<SpriteRenderer>().sprite = image;
     }
-    
+
+    public void Unreveal()
+    {
+        cardBack.SetActive(true); //hide the card again
+    }
     
 }
 

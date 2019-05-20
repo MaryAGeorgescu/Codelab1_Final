@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BackgroundMusicManager.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
           <e p="SaveLoad.cs" t="Include" />
           <e p="Test.cs" t="Include" />
         </e>

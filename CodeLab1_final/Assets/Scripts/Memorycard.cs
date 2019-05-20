@@ -33,5 +33,7 @@ public class Memorycard : MonoBehaviour
         _id = id;
         GetComponent<SpriteRenderer>().sprite = image;
     }
+    
+    
 }
 

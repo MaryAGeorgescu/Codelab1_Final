@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
-using SimpleJson;
+using SimpleJSON;
 
-public class Test : MonoBehaviour //Gamemanger for a simple Zork type game
+public class Zork : MonoBehaviour //Gamemanger for a simple Zork type game
 {
     JSONArray jsonArray; //a data structure that holds data from a json file
 

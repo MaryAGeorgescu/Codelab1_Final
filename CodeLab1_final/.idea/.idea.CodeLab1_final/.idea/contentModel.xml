@@ -27,7 +27,6 @@
           <e p="BackgroundMusicManager.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="Memorycard.cs" t="Include" />
-          <e p="SaveLoad.cs" t="Include" />
           <e p="SceneManager.cs" t="Include" />
           <e p="Story.cs" t="Include" />
           <e p="StoryNode.cs" t="Include" />

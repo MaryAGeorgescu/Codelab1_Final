@@ -20,7 +20,7 @@ public class SceneManager : MonoBehaviour
     {
         Vector3 startPos = originalCard.transform.position;
 
-        for (int i = 0; j < gridCols; i++)
+        for (int i = 0; i < gridCols; i++)
         {
             for (int j = 0; j < gridRows; j++)
             {

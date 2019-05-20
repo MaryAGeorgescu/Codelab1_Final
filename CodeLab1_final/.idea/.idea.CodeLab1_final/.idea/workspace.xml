@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="443ba86a-8b0d-467d-84ca-8d84d25b43b8" name="Default Changelist" comment="card games">
+    <list default="true" id="443ba86a-8b0d-467d-84ca-8d84d25b43b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeLab1_final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeLab1_final/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Memorycard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Memorycard.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" afterDir="false" />
@@ -26,16 +26,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1733" />
+          <entry key="cs" value="2198" />
           <entry key="json" value="22" />
-          <entry key="txt" value="222" />
+          <entry key="txt" value="292" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1733" />
+          <entry key="C#" value="2198" />
           <entry key="JSON" value="22" />
-          <entry key="PLAIN_TEXT" value="222" />
+          <entry key="PLAIN_TEXT" value="292" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -58,33 +58,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Memorycard.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+            <state relative-caret-position="-5">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding>
-                <marker date="1558387438000" expanded="true" signature="6:117" ph="..." />
-                <marker date="1558387438000" expanded="true" signature="118:202" ph="/* Intent: This script hides the card back when the card is clicked ... */" />
-                <marker date="1558387438000" expanded="true" signature="244:741" ph="{...}" />
-                <marker date="1558387438000" expanded="true" signature="370:474" ph="{...}" />
-                <marker date="1558387438000" expanded="true" signature="409:468" ph="{...}" />
-                <marker date="1558387438000" expanded="true" signature="570:606" ph="{...}" />
-                <marker date="1558387438000" expanded="true" signature="654:739" ph="{...}" />
+                <marker date="1558388290000" expanded="true" signature="6:117" ph="..." />
+                <marker date="1558388290000" expanded="true" signature="118:202" ph="/* Intent: This script hides the card back when the card is clicked ... */" />
+                <marker date="1558388290000" expanded="true" signature="244:755" ph="{...}" />
+                <marker date="1558388290000" expanded="true" signature="370:474" ph="{...}" />
+                <marker date="1558388290000" expanded="true" signature="409:468" ph="{...}" />
+                <marker date="1558388290000" expanded="true" signature="570:610" ph="{...}" />
+                <marker date="1558388290000" expanded="true" signature="658:743" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="293">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
-                <marker date="1558387073000" expanded="true" signature="6:104" ph="..." />
-                <marker date="1558387073000" expanded="true" signature="147:432" ph="{...}" />
-                <marker date="1558387073000" expanded="true" signature="320:427" ph="{...}" />
+                <marker date="1558388324000" expanded="true" signature="6:157" ph="..." />
+                <marker date="1558388324000" expanded="true" signature="200:1346" ph="{...}" />
+                <marker date="1558388324000" expanded="true" signature="520:1341" ph="{...}" />
+                <marker date="1558388324000" expanded="true" signature="630:1308" ph="{...}" />
+                <marker date="1558388324000" expanded="true" signature="687:1294" ph="{...}" />
+                <marker date="1558388324000" expanded="true" signature="772:849" ph="{...}" />
+                <marker date="1558388324000" expanded="true" signature="870:974" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -118,8 +122,8 @@
         <option value="$PROJECT_DIR$/Assets/ZorkNav.json" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Story.cs" />
         <option value="$PROJECT_DIR$/Assets/StoryNav.json" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Memorycard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
       </list>
     </option>
   </component>
@@ -223,7 +227,7 @@
       <workItem from="1558325849416" duration="500000" />
       <workItem from="1558326536836" duration="821000" />
       <workItem from="1558374291823" duration="1716000" />
-      <workItem from="1558377153971" duration="2598000" />
+      <workItem from="1558377153971" duration="3797000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to add some background music that persists through the scenes.">
       <created>1558308932087</created>
@@ -274,11 +278,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558386621592</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added a new public method to memory card script">
+      <created>1558387463441</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558387463441</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Instantiating a grid.">
+      <created>1558388144914</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558388144914</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10424000" />
+    <option name="totallyTimeSpent" value="11623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,7 +350,9 @@
     <MESSAGE value="Trying to make a simple text adventure." />
     <MESSAGE value="And now for something completely different." />
     <MESSAGE value="card games" />
-    <option name="LAST_COMMIT_MESSAGE" value="card games" />
+    <MESSAGE value="Added a new public method to memory card script" />
+    <MESSAGE value="Instantiating a grid." />
+    <option name="LAST_COMMIT_MESSAGE" value="Instantiating a grid." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -449,30 +469,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Memorycard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="-5">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
-            <marker date="1558387073000" expanded="true" signature="6:104" ph="..." />
-            <marker date="1558387073000" expanded="true" signature="147:432" ph="{...}" />
-            <marker date="1558387073000" expanded="true" signature="320:427" ph="{...}" />
+            <marker date="1558388290000" expanded="true" signature="6:117" ph="..." />
+            <marker date="1558388290000" expanded="true" signature="118:202" ph="/* Intent: This script hides the card back when the card is clicked ... */" />
+            <marker date="1558388290000" expanded="true" signature="244:755" ph="{...}" />
+            <marker date="1558388290000" expanded="true" signature="370:474" ph="{...}" />
+            <marker date="1558388290000" expanded="true" signature="409:468" ph="{...}" />
+            <marker date="1558388290000" expanded="true" signature="570:610" ph="{...}" />
+            <marker date="1558388290000" expanded="true" signature="658:743" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Memorycard.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        <state relative-caret-position="293">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
-            <marker date="1558387438000" expanded="true" signature="6:117" ph="..." />
-            <marker date="1558387438000" expanded="true" signature="118:202" ph="/* Intent: This script hides the card back when the card is clicked ... */" />
-            <marker date="1558387438000" expanded="true" signature="244:741" ph="{...}" />
-            <marker date="1558387438000" expanded="true" signature="370:474" ph="{...}" />
-            <marker date="1558387438000" expanded="true" signature="409:468" ph="{...}" />
-            <marker date="1558387438000" expanded="true" signature="570:606" ph="{...}" />
-            <marker date="1558387438000" expanded="true" signature="654:739" ph="{...}" />
+            <marker date="1558388324000" expanded="true" signature="6:157" ph="..." />
+            <marker date="1558388324000" expanded="true" signature="200:1346" ph="{...}" />
+            <marker date="1558388324000" expanded="true" signature="520:1341" ph="{...}" />
+            <marker date="1558388324000" expanded="true" signature="630:1308" ph="{...}" />
+            <marker date="1558388324000" expanded="true" signature="687:1294" ph="{...}" />
+            <marker date="1558388324000" expanded="true" signature="772:849" ph="{...}" />
+            <marker date="1558388324000" expanded="true" signature="870:974" ph="{...}" />
           </folding>
         </state>
       </provider>

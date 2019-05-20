@@ -25,7 +25,7 @@ public class Memorycard : MonoBehaviour
 
     public int id
     {
-        get{return _id}
+        get { return _id; }
     }
 
     public void SetCard (int id, Sprite image)

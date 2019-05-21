@@ -15,14 +15,17 @@ public class Memorycard : MonoBehaviour
     {
         if (cardBack.activeSelf)
         {
-            cardBack.SetActive(false);
-        }
-        
-        if (cardBack.activeSelf && controller.canReveal)
-        {
+            Debug.Log("flipping card");
             cardBack.SetActive(false);
             controller.CardRevealed(this);
         }
+        
+        /*if (cardBack.activeSelf && controller.canReveal)
+        {
+            cardBack.SetActive(false);
+            controller.CardRevealed(this);
+            Debug.Log("flipping card if bool is true");
+        }*/
     }
 
     [SerializeField] private SceneManager controller;

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 
 public class SceneManager : MonoBehaviour
@@ -84,13 +85,14 @@ public class SceneManager : MonoBehaviour
         else
         {
             _secondRevealed = card;
+            
 
             StartCoroutine(CheckMatch());
             //Debug.Log("Match?" + (_firstRevealed.id == _secondRevealed.id));
         }
     }
 
-    [SerializeField] public TextMesh scoreLabel;
+    [SerializeField] public TextMeshProUGUI scoreLabel;
     
     private IEnumerator CheckMatch()
     {
@@ -102,6 +104,7 @@ public class SceneManager : MonoBehaviour
         }
         else
         {
+            Debug.Log("Didn't match.");
             yield return new WaitForSeconds(.5f);
             
             _firstRevealed.Unreveal(); //unreveal the cards when they do not match

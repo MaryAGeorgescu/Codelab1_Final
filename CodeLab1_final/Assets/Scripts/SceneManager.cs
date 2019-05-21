@@ -115,7 +115,7 @@ public class SceneManager : MonoBehaviour
 
     public void Restart()
     {
-        Application.LoadLevel("Scene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene");
     }
 
 }

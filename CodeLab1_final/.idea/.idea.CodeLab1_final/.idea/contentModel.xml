@@ -25,11 +25,8 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="BackgroundMusicManager.cs" t="Include" />
-          <e p="GameManager.cs" t="Include" />
           <e p="Memorycard.cs" t="Include" />
           <e p="SceneManager.cs" t="Include" />
-          <e p="Story.cs" t="Include" />
-          <e p="StoryNode.cs" t="Include" />
           <e p="UI.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
